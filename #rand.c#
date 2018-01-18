@@ -52,9 +52,6 @@ int printnum(){
 int main(int argc, char** argv ){
   double seed = timeseed();
   int tempseed = (int)seed%1000000;
-  printf("%d", tempseed);
-  printf("\n");
-  printf("%f\n", seed);
   randomlist(tempseed, 3, 13, 101, 100);
   printnum();
   
